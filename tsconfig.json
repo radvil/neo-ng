@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@neo/ng-ui": ["libs/ng-ui/src/index.ts"],
+      "@neo/utils/*": ["libs/utils/src/*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

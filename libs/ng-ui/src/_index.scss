@@ -1,0 +1,5 @@
+@use './ripple/ripple' as ripple;
+
+@mixin core() {
+  @include ripple.setup();
+}
